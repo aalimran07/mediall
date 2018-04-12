@@ -1,0 +1,86 @@
+h1.page-title {
+    border-bottom:  1px solid #eee;
+    margin-bottom: 40px;
+    color: #444;
+}
+.entry-title {
+  color: #444;
+  font-size: 40px;
+}
+.comments-title {
+  color: #444;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.comments-area {
+  margin-top: 50px;
+}
+
+.comment-list, .comment-list li{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0
+}
+
+
+.comment-author.vcard {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+.comment-metadata {
+  float: left;
+  width: calc(100% - 120px);
+  overflow: hidden;
+}
+.comment-content {
+  padding-left: 120px;
+}
+
+.comment-metadata b, .comment-metadata b a {
+  text-transform: capitalize;
+  display: block;
+  color: #444;
+  font-size: 16px;
+  line-height: normal;
+}
+.comment-metadata a {
+  font-size: 12px;
+  color: #444;
+}
+.reply{
+	margin-top: 15px;
+}
+
+.comment-body{
+	font-size: 14px
+}
+
+.reply a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  background: #89cddf;
+  width: 70px;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+}
+.comment-list > li{
+    padding:  30px;
+    border: 1px solid rgba(137, 205, 225, 0.2);
+    margin-bottom: 20px;
+}
+
+
+ol.children {
+    margin-left: 0;
+}
+
+ol.comment-list > li > ol {
+    padding-left: 30px;
+}
+
+ol.comment-list li ol {
+    margin-top: 20px;
+}

@@ -1,0 +1,53 @@
+.testimonial-section {
+	background-image: url(../../img/testimonialbg.jpg);
+}
+
+.details-nav{
+	text-align: center;
+}
+
+.client-name h4 {
+    color: #89cddf;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.client-name h4 span {
+    display: block;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+.imrn-client-details p{
+	color: #c4c4c4
+}
+.detailst-for {
+    padding-top: 50px;
+}
+
+.client-name {
+    display: inline-block;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.client-name:before {
+    position: absolute;
+    left: 0;
+    content: "\f10d ";
+    height: 20px;
+    font-family: fontawesome;
+    top: 0;
+    color: #89cddf
+}
+.client-name:after {
+    position: absolute;
+    right: 0;
+    content: "\f10e";
+    height: 20px;
+    font-family: fontawesome;
+    top: 0;
+    color: #89cddf
+}

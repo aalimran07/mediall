@@ -1,0 +1,40 @@
+.entry-title a {
+    color: #444;
+    font-size: 40px;
+}
+.entry-content .read-more{
+	background-color: #89cddf;
+	color: #fff;
+	padding: 15px 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	transition: .4s;
+	margin-top: 40px;
+	display: inline-block;
+}
+.entry-content .read-more:hover{
+	background-color: #233344;
+
+}
+
+.entry-meta {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+}
+
+.entry-meta a {
+    font-weight: 600;
+    color: #89cddf;
+}
+
+.entry-meta .byline {
+    float: right;
+}
+
+.entry-content{
+	color: #666666;
+	font-weight: 300
+}

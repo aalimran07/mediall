@@ -1,0 +1,124 @@
+.widget {
+    margin-bottom: 30px;
+    border: 1px solid rgba(137, 205, 225, 0.2);
+    padding: 20px;
+}
+.widget-area .widget:last-child {
+    margin-bottom: 0;
+}
+.widget ul{
+    margin-left: 0;
+}
+
+.widget ul li {
+    position: relative;
+    padding-left: 20px
+}
+
+.widget ul li:before{
+    position: absolute;
+    content:"\f101";
+    font-family: fontawesome;
+    left: 0;
+
+}
+.widget ul li a{
+	color: #666;
+}
+h4.widget-title {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h4.widget-title:before {
+    position: absolute;
+    width: 50px;
+    left: 0;
+    bottom: 0;
+    content: "";
+    border: 1px dashed #89CDE1;
+    height: 4px;
+    border-right: 0;
+    border-left: 0;
+}
+
+form.search-form .search-field {
+    height: 50px;
+    width: 100%;
+    padding-left:  10px;
+    border: 1px solid rgba(137, 205, 225, 0.2);
+    border-right: 0;
+    border-radius: 0
+}
+
+form.search-form label {
+    margin-bottom: 0;
+    float:  left;
+    width: 69%;
+}
+
+
+.widget select {
+    height:  40px;
+    padding-left:  10px;
+    border: 1px solid rgba(137, 205, 225, 0.2);
+    width: 100%
+}
+
+
+.widget ul.children li:before {
+    display:  none;
+}
+
+.widget ul.children li {
+    padding-left: 0;
+}
+
+.widget ul.menu li a {
+    line-height:  normal;
+    padding: 5px 0;
+}
+
+.widget ul.menu li a:before {
+    display:  none;
+}
+
+
+.footer-widget select {
+    width:  100%;
+    height:  40px;
+    padding-left:  10px;
+    background:  transparent;
+    color: #fff;
+}
+
+.footer-widget select option {
+    color: #14212F;
+}
+
+
+.footer-widget ul.menu li a {
+    line-height:  normal;
+    padding: 5px 0;
+}.footer-widget ul.menu li a:before {
+    display: none;
+}
+
+.footer-widget{
+    margin-bottom: 50px;
+}
+
+.footer-area.section-padding{
+    padding-bottom: 50px;
+}
+
+.footer-widget ul, .footer-widget ol{
+    margin-left: 0
+}
+
+form.search-form label{
+    width: 64%
+}

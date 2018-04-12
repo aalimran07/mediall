@@ -1,0 +1,32 @@
+section.support-section {
+    background: #89cddf;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.support p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.support h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+.beforenone:before{
+    display: none
+}
+.support-icon {
+    width: 50px;
+    float: left;
+    margin-right: 20px;
+    line-height: 60px;
+}
+
+.support {
+    padding-left: 70px;
+}

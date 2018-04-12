@@ -1,0 +1,24 @@
+
+/*main css file*/
+@import url('owl.carousel.min.css');
+@import url('animate.min.css');
+@import url('bootstrap.min.css');
+@import url('font-awesome.min.css');
+@import url('reset.css');
+/*section css file*/
+@import url('color-1.css');
+@import url('section/topbar.css');
+@import url('section/menu.css');
+@import url('section/slider.css');
+@import url('section/support.css');
+@import url('section/about.css');
+@import url('section/video.css');
+@import url('section/services.css');
+@import url('section/before-after.css');
+@import url('section/testimonial.css');
+@import url('section/blog.css');
+@import url('section/widget.css');
+@import url('section/single.css');
+@import url('section/footer.css');
+@import url(responsive.css);
+
